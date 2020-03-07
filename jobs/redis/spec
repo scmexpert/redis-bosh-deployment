@@ -1,0 +1,11 @@
+---
+name: redis
+
+templates:
+  ctl.sh: bin/ctl
+  redis.conf: redis.conf
+
+packages:
+- redis
+
+properties: {}
